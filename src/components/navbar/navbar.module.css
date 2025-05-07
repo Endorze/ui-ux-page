@@ -17,6 +17,110 @@
 }
 
 .gptNavbarLinksLogo img {
-    width: 120px;
+    width: 115px;
     height: auto;
+}
+
+.gptNavbarLinksContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.gptNavbarSign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.gptNavbarLinksContainer p,
+.gptNavbarSign p,
+.gptNavbarMenuContainer p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.gptNavbarSign button {
+    padding: 1rem 2rem;
+    background-color: #FF4820;
+    border-radius: 5px;
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.gptNavbarMenuContainer button {
+
+}
+
+
+.gptNavbarMenu {
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+
+.gptNavbarMenuContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background: var(--color-footer);
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0, 0, 0, 0.2)
+}
+
+.gptNavbarMenu svg {
+    cursor: pointer;
+}
+
+.gptNavbarMenuContainer p {
+    margin: 1rem 0;
+}
+
+.gptNavbarMenuContainerLinksSign {
+    display: none;
+}
+
+@media screen and (max-width: 1048px) {
+    .gptNavbarLinksContainer {
+        display: none;
+    }
+
+    .gptNavbarMenu {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .gptNavbar {
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .gptNavbar {
+        padding: 2rem;
+    }
+
+    .gptNavbarSign {
+        display: none;
+    }
 }
