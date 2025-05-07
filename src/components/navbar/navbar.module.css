@@ -1,0 +1,22 @@
+.gptNavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+
+.gptNavbarLinks {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.gptNavbarLinksLogo {
+    margin-right: 2rem;
+}
+
+.gptNavbarLinksLogo img {
+    width: 120px;
+    height: auto;
+}
