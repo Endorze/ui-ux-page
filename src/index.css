@@ -14,7 +14,8 @@
 --color-button: #FF4820;
 --color-button-text: #FFFFFF;
 --font-size: 20px;
---font-line-height: 27px
+--font-line-height: 27px;
+--background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
 }
 
 * {
