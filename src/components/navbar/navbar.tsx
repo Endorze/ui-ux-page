@@ -3,7 +3,7 @@ import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import styles from "./navbar.module.css"
 import logo from "../../assets/carlex.png"
 
-const Menu = () => {
+const Menu: FC = () => {
     return (
         <>
             <p><a href="/">Home</a></p>
@@ -15,7 +15,7 @@ const Menu = () => {
     )
 }
 
-const Navbar = () => {
+const Navbar: FC = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
 
     return (
