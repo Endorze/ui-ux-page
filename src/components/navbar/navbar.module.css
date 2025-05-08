@@ -123,4 +123,12 @@
     .gptNavbarSign {
         display: none;
     }
+
+    .gptNavbarMenuContainer {
+        top: 20px;
+    }
+
+    .gptNavbarMenuContainerLinksSign {
+        display: block;
+    }
 }

@@ -11,6 +11,10 @@
 --color-blog: #042c54;
 --color-text: #81AFDD;
 --color-subtext: #FF8A71;
+--color-button: #FF4820;
+--color-button-text: #FFFFFF;
+--font-size: 20px;
+--font-line-height: 27px
 }
 
 * {
@@ -34,7 +38,7 @@ a {
 }
 
 .gradientText {
-    background-color: var(--gradient-text);
+    background: var(--gradient-text);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
