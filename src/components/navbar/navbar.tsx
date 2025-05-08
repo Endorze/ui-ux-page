@@ -6,11 +6,11 @@ import logo from "../../assets/carlex.png"
 const Menu: FC = () => {
     return (
         <>
-            <p><a href="/">Home</a></p>
-            <p><a href="/">Home</a></p>
-            <p><a href="/">Home</a></p>
-            <p><a href="/">Home</a></p>
-            <p><a href="/">Home</a></p>
+            <p><a href="#home">Home</a></p>
+            <p><a href="#gpt">About us</a></p>
+            <p><a href="#possibility">Possibilities</a></p>
+            <p><a href="#features">Features</a></p>
+            <p><a href="#blog">Blog</a></p>
         </>
     )
 }
