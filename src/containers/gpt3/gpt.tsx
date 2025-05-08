@@ -2,7 +2,7 @@ import type { FC } from "react";
 import styles from "./gpt.module.css"
 
 const Gpt: FC = () => {
-    return <div>
+    return <div className={styles.gpt}>
         Gpt
     </div>
 }

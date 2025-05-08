@@ -2,9 +2,9 @@ import type { FC } from "react";
 import styles from "./feature.module.css"
 
 
-const Feature = () => {
+const Feature: FC = () => {
     return (
-        <div>
+        <div className={styles.feature}>
 
         </div>
     )

@@ -2,9 +2,9 @@ import type { FC } from "react";
 import styles from "./brand.module.css"
 
 
-const Brand = () => {
+const Brand: FC = () => {
     return (
-        <div>
+        <div className={styles.brand}>
 
         </div>
     )

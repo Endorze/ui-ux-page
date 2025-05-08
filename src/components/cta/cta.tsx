@@ -1,9 +1,9 @@
 import type { FC } from "react";
 import styles from "./cta.module.css"
 
-const Cta = () => {
+const Cta: FC = () => {
     return (
-        <div>
+        <div className={styles.cta}>
 
         </div>
     )

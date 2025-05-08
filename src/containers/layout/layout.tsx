@@ -1,5 +1,5 @@
-import { Footer, Blog, Possibility, Features, Gpt, Header } from "../../containers";
-import { Cta, Brand, Navbar } from "../../components";
+import { Footer, Header } from "../../containers";
+import { Navbar } from "../../components";
 import { Outlet } from "react-router-dom";
 
 

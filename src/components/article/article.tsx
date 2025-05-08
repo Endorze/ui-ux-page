@@ -2,9 +2,9 @@ import type { FC } from "react";
 import styles from "./article.module.css"
 
 
-const Article = () => {
+const Article: FC = () => {
     return (
-        <div>
+        <div className={styles.article}>
 
         </div>
     )
