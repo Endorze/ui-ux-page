@@ -11,7 +11,6 @@ const Landing: FC = () => {
         <Possibility />
         <Cta />
         <Blog />
-        <Footer />
     </div>
 }
 

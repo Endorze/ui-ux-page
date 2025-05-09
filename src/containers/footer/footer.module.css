@@ -1,0 +1,141 @@
+.footer {
+    font-family: var(--font-family);
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-footer);
+}
+
+.footerHeading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.footerHeading h1 {
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: -0.04em;
+}
+
+.footerButton p {
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    word-spacing: 2px;
+}
+
+.footerButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #fff;
+    text-align: center;
+    margin-bottom: 10rem;
+    cursor: pointer;
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    text-align: left;
+}
+
+.footerLinksDiv div {
+    width: 250px;
+    margin: 1rem;
+}
+
+.footerLinksLogo {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerLinksLogo img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.footerLinksLogo p {
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+}
+
+.footerLinksDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footerLinksDiv h4 {
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.footerLinksDiv p {
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+.footerCopyright {
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.footerCopyright p {
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 850px) {
+    .footerHeading h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .footerHeading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+     .footerButton p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .footerLinks div {
+        margin: 1rem 0;
+    }
+
+    .footerLinks {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .footerHeading h1 {
+        font-size: 27px;
+        line-height: 38px;
+    }
+}
